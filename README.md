@@ -1,2 +1,3 @@
-# homebrew-tap
-Homebrew tap for venmo
+# Homebrew Tap
+
+A tap for all my projects
