@@ -1,7 +1,7 @@
 class Venmo < Formula
   desc "Unofficial Venmo command-line client"
   homepage "https://github.com/jeph/venmo-cli"
-  version "0.0.16"
+  version "0.0.17"
   license "MIT"
 
   on_macos do
@@ -9,24 +9,24 @@ class Venmo < Formula
 
     on_arm do
       url "https://github.com/jeph/venmo-cli/releases/download/v#{version}/venmo-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "84a50ed01d8a42f47d7f4b076ea0e6e9d19d6f73f44c164f1cd9dafddff3ee34"
+      sha256 "01e116aa949c73081902552e9f524d5b1f097cd7422c25445c2ce9857bca7405"
     end
 
     on_intel do
       url "https://github.com/jeph/venmo-cli/releases/download/v#{version}/venmo-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d542965db5d54cfc68fae51a9a6f0abf4e60b4995669a289eac722fbc2f13bae"
+      sha256 "31af19baa6fa3f8ad5bf2e10b0cd209960c22ff44c7642b06e545fb7746af564"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jeph/venmo-cli/releases/download/v#{version}/venmo-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "047fcddf92e5f1de68e0bbd47cb74008fa7120eec660355d6bb78d52d268a5bc"
+      sha256 "9f94213616f062a60fb6d90568e0754924e924be0214f036442f8b466d8309d3"
     end
 
     on_intel do
       url "https://github.com/jeph/venmo-cli/releases/download/v#{version}/venmo-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d10b140fc089fb1070a157d6eafacab7d819332d3e072a72cce4869300d13e93"
+      sha256 "619cdacd3d890e40dba8793a2f96461aac6c217e22a0939801d1fca1961029da"
     end
   end
 
