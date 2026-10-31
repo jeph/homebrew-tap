@@ -1,11 +1,13 @@
 cask "casper" do
-  version "0.0.29"
-  sha256 "c27fcf490f36f453b3f6b33c1a72e6ba42e849ee9512b1fe8fef62a815332c53"
+  version "0.0.30"
+  sha256 "3ceca4ed0a7d4510b0a968634587e1c7de3ef0fb31d1cf399fcca742e3943f02"
 
   url "https://github.com/jeph/casper/releases/download/v#{version}/Casper-#{version}.dmg"
   name "Casper"
   desc "Private, on-device dictation"
   homepage "https://github.com/jeph/casper"
+
+  auto_updates true
 
   depends_on arch: :arm64
   depends_on macos: :sequoia
