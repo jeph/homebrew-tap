@@ -1,6 +1,6 @@
 cask "casper" do
-  version "0.0.30"
-  sha256 "3ceca4ed0a7d4510b0a968634587e1c7de3ef0fb31d1cf399fcca742e3943f02"
+  version "0.0.31"
+  sha256 "52dfee55809dd0573211d46c3b1b5c3f5b0707ab8faf52e5a5672c4282f3a5ff"
 
   url "https://github.com/jeph/casper/releases/download/v#{version}/Casper-#{version}.dmg"
   name "Casper"
